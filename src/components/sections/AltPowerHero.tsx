@@ -211,12 +211,16 @@ export default function AltPowerHero() {
       {isEnergized && (
         <motion.div
           initial={{ opacity: 0 }}
-          animate={{ opacity: 0.4 }}
+          animate={{ opacity: 1 }}
           transition={{ delay: 2 }}
           className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-4"
         >
           <span className="text-[10px] uppercase tracking-[0.3em] font-bold text-white/40">Continuity Established</span>
-          <div className="w-px h-16 bg-gradient-to-b from-lime-primary to-transparent" />
+          <motion.div 
+            animate={{ opacity: [0.6, 1, 0.6] }}
+            transition={{ duration: 2.5, repeat: Infinity, ease: "easeInOut" }}
+            className="w-[2px] h-16 bg-gradient-to-b from-white via-lime-primary to-transparent shadow-[0_0_15px_var(--color-lime-primary)]" 
+          />
         </motion.div>
       )}
     </section>
