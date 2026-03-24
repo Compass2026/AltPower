@@ -39,14 +39,14 @@ export default function HeaderRefined() {
       transition={{ delay: 0.5, duration: 0.8 }}
       className="fixed top-0 left-0 right-0 z-50 bg-base-black/80 backdrop-blur-xl border-b border-white/5"
     >
-      <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
         
         {/* Logo */}
         <Link to="/" className="flex items-center group shrink-0">
           <img 
             src="/logo.png" 
             alt="AltPower Logo" 
-            className="h-8 md:h-12 w-auto logo-glossy"
+            className="h-10 md:h-14 w-auto logo-glossy"
           />
         </Link>
 
@@ -63,14 +63,14 @@ export default function HeaderRefined() {
                 {item.href ? (
                   <a
                     href={item.href}
-                    className="text-[10px] font-bold uppercase tracking-[0.3em] text-white/50 hover:text-lime-primary transition-colors"
+                    className="text-[12px] font-bold uppercase tracking-[0.3em] text-white/50 hover:text-lime-primary transition-colors"
                   >
                     {item.name}
                   </a>
                 ) : (
-                  <span className="text-[10px] font-bold uppercase tracking-[0.3em] text-white/50 hover:text-lime-primary transition-colors flex items-center gap-1">
+                  <span className="text-[12px] font-bold uppercase tracking-[0.3em] text-white/50 hover:text-lime-primary transition-colors flex items-center gap-1">
                     {item.name}
-                    <ChevronDown className={`w-3 h-3 transition-transform ${activeDropdown === item.name ? 'rotate-180' : ''}`} />
+                    <ChevronDown className={`w-4 h-4 transition-transform ${activeDropdown === item.name ? 'rotate-180' : ''}`} />
                   </span>
                 )}
               </div>
@@ -88,7 +88,7 @@ export default function HeaderRefined() {
                       <Link
                         key={sub.slug}
                         to={item.name === "Services" ? `/services/${sub.slug}` : `/locations/${sub.slug}`}
-                        className="text-[10px] font-bold uppercase tracking-widest text-white/40 hover:text-lime-primary hover:bg-white/5 p-2 transition-all"
+                        className="text-[12px] font-bold uppercase tracking-widest text-white/40 hover:text-lime-primary hover:bg-white/5 p-3 transition-all"
                       >
                         {sub.name}
                       </Link>
@@ -104,14 +104,14 @@ export default function HeaderRefined() {
         <div className="flex items-center gap-3 sm:gap-6 shrink-0">
           <a
             href="tel:+16364977314"
-            className="flex items-center gap-1.5 md:gap-2 text-[10px] md:text-[11px] font-black uppercase tracking-widest text-white/60 hover:text-white transition-colors shrink-0"
+            className="flex items-center gap-1.5 md:gap-2 text-[11px] md:text-[13px] font-black uppercase tracking-widest text-white/60 hover:text-white transition-colors shrink-0"
           >
-            <Phone className="w-3.5 h-3.5 text-lime-primary hidden sm:block" />
+            <Phone className="w-4 h-4 text-lime-primary hidden sm:block" />
             (636) 497 7314
           </a>
           <a
             href="#contact"
-            className="group px-3 py-1.5 md:px-6 md:py-2 border border-lime-primary/30 text-lime-primary text-[9px] md:text-[10px] font-black uppercase tracking-widest hover:bg-lime-primary hover:text-black transition-all whitespace-nowrap"
+            className="group px-4 py-2 md:px-8 md:py-2.5 border border-lime-primary/30 text-lime-primary text-[10px] md:text-[12px] font-black uppercase tracking-widest hover:bg-lime-primary hover:text-black transition-all whitespace-nowrap"
           >
             Get Quote
           </a>
@@ -121,7 +121,7 @@ export default function HeaderRefined() {
             className="lg:hidden text-white/60 hover:text-white transition-colors"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
-            {isMobileMenuOpen ? <X className="w-8 h-8 md:w-6 md:h-6" /> : <Menu className="w-8 h-8 md:w-6 md:h-6" />}
+            {isMobileMenuOpen ? <X className="w-10 h-10 md:w-8 md:h-8" /> : <Menu className="w-10 h-10 md:w-8 md:h-8" />}
           </button>
         </div>
       </div>
