@@ -138,7 +138,7 @@ export default function HeaderRefined() {
             <div className="px-6 py-8 flex flex-col gap-6">
               {navItems.map((item) => (
                 <div key={item.name} className="flex flex-col gap-4">
-                  <div className="text-[19px] font-black uppercase tracking-[0.4em] text-lime-primary border-b border-white/10 pb-2">
+                  <div className="text-[18px] font-black uppercase tracking-[0.4em] text-lime-primary border-b border-white/10 pb-2">
                     {item.name}
                   </div>
                   {item.dropdown ? (
@@ -148,7 +148,7 @@ export default function HeaderRefined() {
                           key={sub.slug}
                           to={item.name === "Services" ? `/services/${sub.slug}` : `/locations/${sub.slug}`}
                           onClick={() => setIsMobileMenuOpen(false)}
-                          className="text-[12px] font-bold uppercase tracking-widest text-white/60 hover:text-white py-1"
+                          className="text-[15px] font-bold uppercase tracking-widest text-white/60 hover:text-white py-1"
                         >
                           {sub.name}
                         </Link>
@@ -158,7 +158,7 @@ export default function HeaderRefined() {
                     <a
                       href={item.href}
                       onClick={() => setIsMobileMenuOpen(false)}
-                      className="text-[12px] font-bold uppercase tracking-widest text-white/60 hover:text-white pl-4 py-1"
+                      className="text-[15px] font-bold uppercase tracking-widest text-white/60 hover:text-white pl-4 py-1"
                     >
                       View Page
                     </a>
