@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  
+  /* Energized Green Palette - Matches Logo */
+  --color-lime-primary: #38D430;
+  --color-lime-glow: rgba(56, 212, 48, 0.4);
+  --color-lime-bright: #4dfa43;
+  
+  /* Matte Dark Palette */
+  --color-base-black: #111111;
+  --color-base-zinc: #1a1a1a;
+}
+
+@layer base {
+  body {
+    @apply bg-base-black text-white font-sans antialiased selection:bg-lime-primary selection:text-black;
+    letter-spacing: -0.01em;
+  }
+}
+
+.power-grid {
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 64px 64px;
+  background-position: center center;
+}
+
+.glow-subtle {
+  filter: drop-shadow(0 0 12px var(--color-lime-glow));
+}
+
+.text-premium {
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.glass-card {
+  @apply bg-white/5 backdrop-blur-md border border-white/10;
+}
+
+.logo-glossy {
+  filter: 
+    brightness(1.1)
+    contrast(1.1)
+    drop-shadow(0 0 2px rgba(255, 255, 255, 0.4)) 
+    drop-shadow(0 4px 12px rgba(0, 0, 0, 0.8));
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.logo-glossy:hover {
+  filter: 
+    brightness(1.2)
+    contrast(1.2)
+    drop-shadow(0 0 4px rgba(255, 255, 255, 0.6)) 
+    drop-shadow(0 0 25px var(--color-lime-glow));
+  transform: scale(1.04) translateY(-2px);
+}
+
+.logo-aura {
+  position: relative;
+}
+
+.logo-aura::before {
+  content: '';
+  position: absolute;
+  inset: -20px;
+  background: radial-gradient(circle, var(--color-lime-glow) 0%, transparent 70%);
+  opacity: 0.5;
+  filter: blur(20px);
+  z-index: -1;
+  border-radius: 50%;
+}
+
+
+
+
