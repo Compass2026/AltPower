@@ -31,7 +31,7 @@ export default function AltPowerHero() {
   }, []);
 
   return (
-    <section className="relative min-h-screen overflow-hidden bg-base-black text-white flex flex-col items-center justify-start pt-32 md:pt-48">
+    <section className="relative min-h-screen overflow-hidden bg-base-black text-white flex flex-col items-center justify-start pt-40 md:pt-64">
       {/* Circuit Board Background */}
       <CircuitBoardBackground energized={isEnergized} />
       
@@ -102,7 +102,7 @@ export default function AltPowerHero() {
           <motion.div
             initial={hasPlayed ? { opacity: 1 } : { opacity: 0 }}
             animate={{ opacity: 1 }}
-            className="flex flex-col items-center text-center -mt-12"
+            className="flex flex-col items-center text-center"
           >
             {/* The Hero Logo - Specifically Powered by Breaker */}
             <div className="relative mb-12 flex justify-center">
