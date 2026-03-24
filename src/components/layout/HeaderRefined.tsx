@@ -101,27 +101,29 @@ export default function HeaderRefined() {
         </nav>
 
         {/* Actions */}
-        <div className="flex items-center gap-3 sm:gap-6">
-          <a
-            href="tel:+16364977314"
-            className="flex items-center gap-1.5 md:gap-2 text-[10px] md:text-[11px] font-black uppercase tracking-widest text-white/60 hover:text-white transition-colors shrink-0"
-          >
-            <Phone className="w-3.5 h-3.5 text-lime-primary" />
-            (636) 497 7314
-          </a>
-          <a
-            href="#contact"
-            className="group px-6 py-2 border border-lime-primary/30 text-lime-primary text-[10px] font-black uppercase tracking-widest hover:bg-lime-primary hover:text-black transition-all"
-          >
-            Get Quote
-          </a>
+        <div className="flex items-center gap-2 sm:gap-6">
+          <div className="flex flex-col md:flex-row items-end md:items-center gap-1.5 md:gap-6">
+            <a
+              href="tel:+16364977314"
+              className="flex items-center gap-1.5 md:gap-2 text-[10px] md:text-[11px] font-black uppercase tracking-widest text-white/60 hover:text-white transition-colors shrink-0"
+            >
+              <Phone className="w-3 h-3 md:w-3.5 md:h-3.5 text-lime-primary" />
+              (636) 497 7314
+            </a>
+            <a
+              href="#contact"
+              className="group px-4 py-1.5 md:px-6 md:py-2 border border-lime-primary/30 text-lime-primary text-[9px] md:text-[10px] font-black uppercase tracking-widest hover:bg-lime-primary hover:text-black transition-all"
+            >
+              Get Quote
+            </a>
+          </div>
           
           {/* Mobile Menu Toggle */}
           <button 
-            className="md:hidden text-white/60 hover:text-white transition-colors"
+            className="md:hidden text-white/60 hover:text-white transition-colors ml-2"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
-            {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            {isMobileMenuOpen ? <X className="w-8 h-8" /> : <Menu className="w-8 h-8" />}
           </button>
         </div>
       </div>
