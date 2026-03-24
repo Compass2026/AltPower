@@ -18,10 +18,10 @@ const navItems = [
   {
     name: "Service Areas",
     dropdown: [
-      { name: "St. Louis", slug: "st-louis" },
-      { name: "Lake of the Ozarks", slug: "lake-ozarks" },
+      { name: "Wentzville", slug: "wentzville" },
+      { name: "O'Fallon", slug: "ofallon" },
+      { name: "St. Peters", slug: "st-peters" },
       { name: "St. Charles", slug: "st-charles" },
-      { name: "Belleville", slug: "belleville" },
     ],
   },
   { name: "About", href: "/#about" },

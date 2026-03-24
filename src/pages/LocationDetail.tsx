@@ -4,35 +4,35 @@ import CTA from "../components/sections/CTA";
 import { useSEO } from "../hooks/useSEO";
 
 const locationData: Record<string, any> = {
-  "st-louis": {
-    city: "St. Louis",
+  "wentzville": {
+    city: "Wentzville",
     state: "MO",
-    description: "AltPower's headquarters and primary service hub for mission-critical electrical engineering in St. Louis City and County.",
-    content: "We've been serving the St. Louis metropolitan area for over two decades, providing specialized electrical services to the healthcare, data center, and commercial real estate sectors."
+    description: "Providing mission-critical electrical engineering and advanced commercial infrastructure solutions tailored for Wentzville.",
+    content: "We serve the rapidly expanding Wentzville area with specialized electrical services for industrial automation, data centers, and commercial developments."
   },
-  "lake-ozarks": {
-    city: "Lake of the Ozarks",
+  "ofallon": {
+    city: "O'Fallon",
     state: "MO",
-    description: "Specialized electrical solutions for high-end residential and commercial developments around the Lake of the Ozarks.",
-    content: "Our Lake of the Ozarks team specializes in smart integration and high-capacity electrical systems for premium lakefront properties and commercial hospitality projects."
+    description: "High-performance electrical systems and strategic infrastructure support for O'Fallon businesses and commercial real estate.",
+    content: "Our O'Fallon team specializes in smart integration and high-capacity electrical engineering, ensuring optimal power reliability for local enterprises and critical facilities."
+  },
+  "st-peters": {
+    city: "St. Peters",
+    state: "MO",
+    description: "End-to-end commercial electrical services and robust infrastructure planning for the St. Peters community.",
+    content: "AltPower delivers comprehensive industrial automation and modern commercial electrical solutions to drive the success of businesses across St. Peters."
   },
   "st-charles": {
     city: "St. Charles",
     state: "MO",
     description: "Comprehensive electrical infrastructure support for the growing industrial and commercial corridors of St. Charles County.",
-    content: "AltPower provides end-to-end industrial automation and commercial infrastructure services to businesses throughout the St. Charles and O'Fallon areas."
-  },
-  "belleville": {
-    city: "Belleville",
-    state: "IL",
-    description: "Strategic electrical engineering and infrastructure support for our clients in Southern Illinois and the Metro East.",
-    content: "Our Metro East operations provide critical system support and high-performance electrical solutions and 24/7 maintenance to our partners in Belleville and surrounding areas."
+    content: "AltPower provides end-to-end industrial automation and commercial infrastructure services to businesses throughout the St. Charles area."
   }
 };
 
 export default function LocationDetail() {
   const { city } = useParams<{ city: string }>();
-  const data = locationData[city || ""] || locationData["st-louis"];
+  const data = locationData[city || ""] || locationData["wentzville"];
 
   useSEO({
     title: `Electrical Contractors in ${data.city}, ${data.state}`,
