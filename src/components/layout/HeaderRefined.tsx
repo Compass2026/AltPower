@@ -42,7 +42,7 @@ export default function HeaderRefined() {
       <div className="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
         
         {/* Logo */}
-        <Link to="/" className="flex items-center group shrink-0">
+        <Link to="/" className="flex items-center group shrink-0 transform transition-transform translate-y-3 md:translate-y-0">
           <img 
             src="/logo.png" 
             alt="AltPower Logo" 
