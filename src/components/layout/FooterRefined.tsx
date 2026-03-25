@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Zap, Github, Linkedin, Twitter } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function FooterRefined() {
   return (
@@ -49,11 +50,18 @@ export default function FooterRefined() {
         <div>
            <div className="text-[10px] uppercase font-bold tracking-[0.3em] text-white/20 mb-6">Compliance</div>
            <ul className="space-y-4">
-              {["License #98224", "Safety Protocols", "Privacy Policy", "Terms of Service"].map((link) => (
-                <li key={link}>
-                  <a href="#" className="text-sm font-bold text-white/50 hover:text-lime-primary transition-colors">{link}</a>
-                </li>
-              ))}
+              <li>
+                <span className="text-sm font-bold text-white/50">License #98224</span>
+              </li>
+              <li>
+                <a href="#" className="text-sm font-bold text-white/50 hover:text-lime-primary transition-colors">Safety Protocols</a>
+              </li>
+              <li>
+                <Link to="/privacy-policy" className="text-sm font-bold text-white/50 hover:text-lime-primary transition-colors">Privacy Policy</Link>
+              </li>
+              <li>
+                <Link to="/terms-and-conditions" className="text-sm font-bold text-white/50 hover:text-lime-primary transition-colors">Terms & Conditions</Link>
+              </li>
            </ul>
         </div>
       </div>
