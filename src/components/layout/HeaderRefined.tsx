@@ -26,6 +26,7 @@ const navItems = [
   },
   { name: "About", href: "/#about" },
   { name: "Safety", href: "/#safety" },
+  { name: "Contact", href: "/contact" },
 ];
 
 export default function HeaderRefined() {
@@ -61,12 +62,21 @@ export default function HeaderRefined() {
             >
               <div className="flex items-center gap-1 cursor-pointer py-4">
                 {item.href ? (
-                  <a
-                    href={item.href}
-                    className="text-[12px] font-bold uppercase tracking-[0.3em] text-white/50 hover:text-lime-primary transition-colors"
-                  >
-                    {item.name}
-                  </a>
+                  item.href.includes('#') ? (
+                    <a
+                      href={item.href}
+                      className="text-[12px] font-bold uppercase tracking-[0.3em] text-white/50 hover:text-lime-primary transition-colors"
+                    >
+                      {item.name}
+                    </a>
+                  ) : (
+                    <Link
+                      to={item.href}
+                      className="text-[12px] font-bold uppercase tracking-[0.3em] text-white/50 hover:text-lime-primary transition-colors"
+                    >
+                      {item.name}
+                    </Link>
+                  )
                 ) : (
                   <span className="text-[12px] font-bold uppercase tracking-[0.3em] text-white/50 hover:text-lime-primary transition-colors flex items-center gap-1">
                     {item.name}
@@ -155,13 +165,23 @@ export default function HeaderRefined() {
                       ))}
                     </div>
                   ) : (
-                    <a
-                      href={item.href}
-                      onClick={() => setIsMobileMenuOpen(false)}
-                      className="text-[15px] font-bold uppercase tracking-widest text-white/60 hover:text-white pl-4 py-1"
-                    >
-                      View Page
-                    </a>
+                    item.href?.includes('#') ? (
+                      <a
+                        href={item.href}
+                        onClick={() => setIsMobileMenuOpen(false)}
+                        className="text-[15px] font-bold uppercase tracking-widest text-white/60 hover:text-white pl-4 py-1"
+                      >
+                        View Page
+                      </a>
+                    ) : (
+                      <Link
+                        to={item.href || ''}
+                        onClick={() => setIsMobileMenuOpen(false)}
+                        className="text-[15px] font-bold uppercase tracking-widest text-white/60 hover:text-white pl-4 py-1"
+                      >
+                        View Page
+                      </Link>
+                    )
                   )}
                 </div>
               ))}
