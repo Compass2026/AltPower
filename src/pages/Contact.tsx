@@ -123,7 +123,7 @@ export default function Contact() {
                   />
                 </div>
                 <span className="text-[12px] leading-relaxed text-white/50 group-hover:text-white/70 transition-colors">
-                  By checking this box, I consent to receive automated and informational text messages from AltPower Co. at the phone number provided. Consent is not a condition of purchase. Message and data rates may apply. Message frequency varies. You can unsubscribe at any time by replying STOP. View our <Link to="/privacy-policy" className="text-lime-primary hover:underline">Privacy Policy</Link> and <Link to="/terms-and-conditions" className="text-lime-primary hover:underline">Terms & Conditions</Link>.
+                  I consent to receive automated marketing text messages from AltPower Co. at the phone number I provided. Message frequency may vary. Message and data rates may apply. Text HELP to (636) 497-7314 for help, or STOP to opt out. Consent is not a condition of purchase. View our <Link to="/privacy-policy" className="text-lime-primary hover:underline">Privacy Policy</Link> and <Link to="/terms-and-conditions" className="text-lime-primary hover:underline">Terms & Conditions</Link>.
                 </span>
               </label>
             </div>
