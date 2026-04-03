@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import ServiceDetail from "./pages/ServiceDetail";
 import LocationDetail from "./pages/LocationDetail";
 import ScrollToTop from "./components/layout/ScrollToTop";
+import Contact from "./pages/Contact";
 
 import PrivacyPolicy from "./app/privacy-policy/page";
 import TermsAndConditions from "./app/terms-and-conditions/page";
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="/locations/:city" element={<LocationDetail />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+        <Route path="/contact" element={<Contact />} />
         {/* Blog route placeholder */}
         <Route path="/blog/:slug" element={<Home />} /> 
         <Route path="*" element={<Home />} /> 

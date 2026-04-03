@@ -109,12 +109,12 @@ export default function HeaderRefined() {
             <Phone className="w-4 h-4 text-lime-primary hidden sm:block" />
             (636) 497 7314
           </a>
-          <a
-            href="#contact"
+          <Link
+            to="/contact"
             className="group px-4 py-2 md:px-8 md:py-2.5 border border-lime-primary/30 text-lime-primary text-[10px] md:text-[12px] font-black uppercase tracking-widest hover:bg-lime-primary hover:text-black transition-all whitespace-nowrap"
           >
             Get Quote
-          </a>
+          </Link>
           
           {/* Mobile Menu Toggle */}
           <button 
