@@ -20,6 +20,7 @@ export default function App() {
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
         <Route path="/contact" element={<Contact />} />
+        {/* Sync trigger */}
         {/* Blog route placeholder */}
         <Route path="/blog/:slug" element={<Home />} /> 
         <Route path="*" element={<Home />} /> 
