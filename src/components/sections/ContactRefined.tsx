@@ -37,7 +37,7 @@ export default function ContactRefined() {
                 </div>
                 <div>
                   <div className="text-[10px] uppercase font-bold tracking-widest text-white/20">Email Inquiries</div>
-                  <div className="text-lg font-bold">thomas@compassmarketing.ai</div>
+                  <div className="text-lg font-bold">info@altpower.co</div>
                 </div>
               </div>
 
@@ -47,7 +47,7 @@ export default function ContactRefined() {
                 </div>
                 <div>
                   <div className="text-[10px] uppercase font-bold tracking-widest text-white/20">Headquarters</div>
-                  <div className="text-lg font-bold">128 Energy Way, IL 60601</div>
+                  <div className="text-lg font-bold">105 Hawks Haven Drive, O'Fallon, MO 63368</div>
                 </div>
               </div>
             </div>

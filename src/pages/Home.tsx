@@ -17,11 +17,13 @@ export default function Home() {
           description: "Specialized electrical engineering and contracting for commercial and industrial infrastructure.",
           url: "https://www.altpower.co",
           telephone: "(636) 497-7314",
-          email: "thomas@compassmarketing.ai",
+          email: "info@altpower.co",
           address: {
             "@type": "PostalAddress",
-            "addressLocality": "Wentzville",
-            "addressRegion": "MO"
+            "streetAddress": "105 Hawks Haven Drive",
+            "addressLocality": "O'Fallon",
+            "addressRegion": "MO",
+            "postalCode": "63368"
           }
         }}
       />
