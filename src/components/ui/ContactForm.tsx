@@ -29,10 +29,19 @@ export default function ContactForm({
       <iframe
         src="https://api.leadconnectorhq.com/widget/form/OaZe9yPaDgWgPBpvQF5U"
         style={{ width: "100%", height: "100%", border: "none", borderRadius: "3px" }}
-        id="inline-OaZe9yPaDgWgPBpvQF5U"
-        data-auto-height="true"
-        data-check-cookie="true"
-        title="Contact Form"
+        id="inline-OaZe9yPaDgWgPBpvQF5U" 
+        data-layout="{'id':'INLINE'}"
+        data-trigger-type="alwaysShow"
+        data-trigger-value=""
+        data-activation-type="alwaysActivated"
+        data-activation-value=""
+        data-deactivation-type="neverDeactivate"
+        data-deactivation-value=""
+        data-form-name="Website Lead Form"
+        data-height="1000"
+        data-layout-iframe-id="inline-OaZe9yPaDgWgPBpvQF5U"
+        data-form-id="OaZe9yPaDgWgPBpvQF5U"
+        title="Website Lead Form"
       />
     </div>
   );
