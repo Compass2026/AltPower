@@ -13,13 +13,14 @@ export default function Home() {
       <Schema 
         type="LocalBusiness"
         data={{
-          name: "AltPower",
+          name: "Altpower LLC",
           description: "Specialized electrical engineering and contracting for commercial and industrial infrastructure.",
-          url: "https://altpower.com",
-          telephone: "800-ALT-POWER",
+          url: "https://www.altpower.co",
+          telephone: "(636) 497-7314",
+          email: "thomas@compassmarketing.ai",
           address: {
             "@type": "PostalAddress",
-            "addressLocality": "St. Louis",
+            "addressLocality": "Wentzville",
             "addressRegion": "MO"
           }
         }}

@@ -27,7 +27,7 @@ export default function ContactRefined() {
                 </div>
                 <div>
                   <div className="text-[10px] uppercase font-bold tracking-widest text-white/20">Direct Line</div>
-                  <div className="text-lg font-bold">800.ALT.POWER</div>
+                  <div className="text-lg font-bold">(636) 497-7314</div>
                 </div>
               </div>
 
@@ -37,7 +37,7 @@ export default function ContactRefined() {
                 </div>
                 <div>
                   <div className="text-[10px] uppercase font-bold tracking-widest text-white/20">Email Inquiries</div>
-                  <div className="text-lg font-bold">projects@altpower.co</div>
+                  <div className="text-lg font-bold">thomas@compassmarketing.ai</div>
                 </div>
               </div>
 

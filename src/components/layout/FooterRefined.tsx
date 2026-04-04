@@ -67,7 +67,7 @@ export default function FooterRefined() {
       </div>
 
       <div className="max-w-7xl mx-auto px-6 mt-16 pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-4">
-         <span className="text-[10px] uppercase font-bold tracking-widest text-white/20">© 2026 AltPower Co. All Continuity Reserved.</span>
+         <span className="text-[10px] uppercase font-bold tracking-widest text-white/20">© 2026 Altpower LLC. All Continuity Reserved.</span>
          <span className="text-[10px] uppercase font-bold tracking-widest text-white/20">Engineering for Excellence.</span>
       </div>
     </footer>
