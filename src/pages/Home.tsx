@@ -1,4 +1,4 @@
-import AltPowerHero from "../components/sections/AltPowerHero";
+import ApexElectricHero from "../components/sections/ApexElectricHero";
 import TrustSignals from "../components/sections/TrustSignals";
 import ServicesSection from "../components/sections/ServicesSection";
 import ContactRefined from "../components/sections/ContactRefined";
@@ -13,21 +13,21 @@ export default function Home() {
       <Schema 
         type="LocalBusiness"
         data={{
-          name: "Altpower LLC",
+          name: "APEX Electric",
           description: "Specialized electrical engineering and contracting for commercial and industrial infrastructure.",
-          url: "https://www.altpower.co",
-          telephone: "(636) 497-7314",
-          email: "info@altpower.co",
+          url: "https://www.apexelectric.pro",
+          telephone: "(660) 342-5886",
+          email: "info@apexelectric.pro",
           address: {
             "@type": "PostalAddress",
-            "streetAddress": "105 Hawks Haven Drive",
-            "addressLocality": "O'Fallon",
+            "streetAddress": "1104 Sullivans Way",
+            "addressLocality": "Lake St. Louis",
             "addressRegion": "MO",
-            "postalCode": "63368"
+            "postalCode": "63367"
           }
         }}
       />
-      <AltPowerHero />
+      <ApexElectricHero />
       <TrustSignals />
       <ServicesSection />
       
@@ -42,13 +42,13 @@ export default function Home() {
           </div>
           
           <div>
-            <span className="text-lime-primary text-xs font-bold uppercase tracking-[0.4em] mb-4 block">The AltPower Way</span>
+            <span className="text-lime-primary text-xs font-bold uppercase tracking-[0.4em] mb-4 block">The APEX Electric Way</span>
             <h2 className="font-display text-4xl md:text-6xl font-black uppercase mb-8 leading-tight">
               Legacy of <br />
               <span className="text-white/30 italic">Technical Edge.</span>
             </h2>
             <p className="text-white/50 text-base leading-relaxed mb-6">
-              For over two decades, AltPower has set the benchmark for electrical contracting through a combination of engineering precision and safety-first field protocols.
+              For over two decades, APEX Electric has set the benchmark for electrical contracting through a combination of engineering precision and safety-first field protocols.
             </p>
             <p className="text-white/50 text-base leading-relaxed">
               We don't just solve problems; we engineer systems that prevent them. Our methodology is built on the belief that mission-critical infrastructure demands zero-fault continuity.

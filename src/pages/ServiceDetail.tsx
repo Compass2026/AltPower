@@ -45,7 +45,7 @@ export default function ServiceDetail() {
           description: data.description,
           provider: {
             "@type": "LocalBusiness",
-            "name": "AltPower"
+            "name": "APEX Electric"
           }
         }}
       />
@@ -67,7 +67,7 @@ export default function ServiceDetail() {
           <div className="text-white/50 text-lg leading-relaxed space-y-6">
             <p>{data.content}</p>
             <p>
-              AltPower brings decades of specialized experience to every {data.title} project. Our approach is rooted in technical precision and a deep understanding of the unique challenges faced by our clients.
+              APEX Electric brings decades of specialized experience to every {data.title} project. Our approach is rooted in technical precision and a deep understanding of the unique challenges faced by our clients.
             </p>
           </div>
           <div className="glass-card rounded-2xl p-8 border border-white/5">

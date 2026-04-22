@@ -4,7 +4,7 @@ import { useEffect, useState, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import CircuitBoardBackground from "../ui/CircuitBoardBackground";
 
-export default function AltPowerHero() {
+export default function ApexElectricHero() {
   const [isEnergized, setIsEnergized] = useState(false);
   const [isFlipping, setIsFlipping] = useState(false);
   const [isSurging, setIsSurging] = useState(false);
@@ -131,7 +131,7 @@ export default function AltPowerHero() {
               >
                 <img 
                   src="/logo.png" 
-                  alt="AltPower Logo" 
+                  alt="APEX Electric Logo" 
                   className="h-48 md:h-64 w-auto brightness-125"
                 />
                 

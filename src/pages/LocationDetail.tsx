@@ -20,13 +20,13 @@ const locationData: Record<string, any> = {
     city: "St. Peters",
     state: "MO",
     description: "End-to-end commercial electrical services and robust infrastructure planning for the St. Peters community.",
-    content: "AltPower delivers comprehensive industrial automation and modern commercial electrical solutions to drive the success of businesses across St. Peters."
+    content: "APEX Electric delivers comprehensive industrial automation and modern commercial electrical solutions to drive the success of businesses across St. Peters."
   },
   "st-charles": {
     city: "St. Charles",
     state: "MO",
     description: "Comprehensive electrical infrastructure support for the growing industrial and commercial corridors of St. Charles County.",
-    content: "AltPower provides end-to-end industrial automation and commercial infrastructure services to businesses throughout the St. Charles area."
+    content: "APEX Electric provides end-to-end industrial automation and commercial infrastructure services to businesses throughout the St. Charles area."
   }
 };
 
@@ -59,7 +59,7 @@ export default function LocationDetail() {
           <div className="text-white/50 text-lg leading-relaxed space-y-6">
             <p>{data.content}</p>
             <p>
-              As a leading electrical contractor in {data.city}, AltPower is dedicated to engineering excellence. We understand the local code requirements and specific environmental challenges of the {data.city} area.
+              As a leading electrical contractor in {data.city}, APEX Electric is dedicated to engineering excellence. We understand the local code requirements and specific environmental challenges of the {data.city} area.
             </p>
           </div>
           <div className="p-8 border border-white/5 rounded-2xl bg-white/[0.02]">
@@ -78,7 +78,7 @@ export default function LocationDetail() {
 
       <CTA 
         title={`Growing in ${data.city}?`}
-        subtitle="Let AltPower engineer your next phase of growth with high-performance electrical infrastructure."
+        subtitle="Let APEX Electric engineer your next phase of growth with high-performance electrical infrastructure."
       />
     </>
   );

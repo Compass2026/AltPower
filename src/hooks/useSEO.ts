@@ -9,7 +9,7 @@ interface SEOProps {
 
 export const useSEO = ({ title, description }: SEOProps) => {
   useEffect(() => {
-    document.title = `${title} | AltPower - Specialized Electrical Engineering`;
+    document.title = `${title} | APEX Electric - Specialized Electrical Engineering`;
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {

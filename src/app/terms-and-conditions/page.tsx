@@ -23,14 +23,14 @@ const TermsAndConditions = () => {
         <section className="mb-12">
           <h2 className="text-2xl font-display font-bold mb-4 text-white">2. Services</h2>
           <p className="text-zinc-300 mb-6 leading-relaxed">
-            Altpower LLC provides electrical services throughout the Greater St. Louis area. All estimates and services are subject to change based on project scope and conditions.
+            APEX Electric provides electrical services throughout the Greater St. Louis area. All estimates and services are subject to change based on project scope and conditions.
           </p>
         </section>
 
         <section className="mb-12">
           <h2 className="text-2xl font-display font-bold mb-4 text-white">3. SMS Terms of Service</h2>
           <p className="text-zinc-300 mb-4 font-bold">
-            By providing your phone number and opting in, you consent to receive customer care SMS messages from Altpower LLC.
+            By providing your phone number and opting in, you consent to receive customer care SMS messages from APEX Electric.
           </p>
           <p className="text-zinc-300 mb-4 italic">These messages may include:</p>
           <ul className="list-disc pl-6 text-zinc-300 space-y-2 mb-6">
@@ -59,7 +59,7 @@ const TermsAndConditions = () => {
         <section className="mb-12">
           <h2 className="text-2xl font-display font-bold mb-4 text-white">5. Limitation of Liability</h2>
           <p className="text-zinc-300 mb-6 leading-relaxed">
-            Altpower LLC is not liable for any direct or indirect damages resulting from use of this website or services.
+            APEX Electric is not liable for any direct or indirect damages resulting from use of this website or services.
           </p>
         </section>
 
@@ -73,9 +73,9 @@ const TermsAndConditions = () => {
         <section className="mb-12 border-t border-zinc-800 pt-8">
           <h2 className="text-2xl font-display font-bold mb-4 text-white">Contact Information</h2>
           <div className="text-zinc-300 space-y-1">
-            <p className="font-bold text-white">Altpower LLC</p>
-            <p>Phone: (636) 497-7314</p>
-            <p>Email: info@altpower.co</p>
+            <p className="font-bold text-white">APEX Electric</p>
+            <p>Phone: (660) 342-5886</p>
+            <p>Email: info@apexelectric.pro</p>
           </div>
         </section>
       </div>

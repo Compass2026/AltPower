@@ -27,7 +27,7 @@ export default function ContactRefined() {
                 </div>
                 <div>
                   <div className="text-[10px] uppercase font-bold tracking-widest text-white/20">Direct Line</div>
-                  <div className="text-lg font-bold">(636) 497-7314</div>
+                  <div className="text-lg font-bold">(660) 342-5886</div>
                 </div>
               </div>
 
@@ -37,7 +37,7 @@ export default function ContactRefined() {
                 </div>
                 <div>
                   <div className="text-[10px] uppercase font-bold tracking-widest text-white/20">Email Inquiries</div>
-                  <div className="text-lg font-bold">info@altpower.co</div>
+                  <div className="text-lg font-bold">info@apexelectric.pro</div>
                 </div>
               </div>
 
@@ -47,7 +47,7 @@ export default function ContactRefined() {
                 </div>
                 <div>
                   <div className="text-[10px] uppercase font-bold tracking-widest text-white/20">Headquarters</div>
-                  <div className="text-lg font-bold">105 Hawks Haven Drive, O'Fallon, MO 63368</div>
+                  <div className="text-lg font-bold">1104 Sullivans Way, Lake St. Louis, MO 63367</div>
                 </div>
               </div>
             </div>

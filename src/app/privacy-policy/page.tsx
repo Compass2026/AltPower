@@ -9,7 +9,7 @@ const PrivacyPolicy = () => {
 
         <section className="mb-12">
           <p className="text-lg text-zinc-300 leading-relaxed mb-6">
-            Altpower LLC ("we," "our," or "us") respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, and protect your information.
+            APEX Electric ("we," "our," or "us") respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, and protect your information.
           </p>
         </section>
 
@@ -34,7 +34,7 @@ const PrivacyPolicy = () => {
         <section className="mb-12">
           <h2 className="text-2xl font-display font-bold mb-4 text-white">3. SMS Communications</h2>
           <p className="text-zinc-300 mb-4">
-            If you provide your phone number and opt in, you may receive SMS messages from Altpower LLC regarding customer service, appointment reminders, service updates, and responses to inquiries.
+            If you provide your phone number and opt in, you may receive SMS messages from APEX Electric regarding customer service, appointment reminders, service updates, and responses to inquiries.
           </p>
           <ul className="list-disc pl-6 text-zinc-300 space-y-2">
             <li>Message frequency may vary</li>
@@ -75,9 +75,9 @@ const PrivacyPolicy = () => {
         <section className="mb-12 border-t border-zinc-800 pt-8">
           <h2 className="text-2xl font-display font-bold mb-4 text-white">8. Contact Information</h2>
           <div className="text-zinc-300 space-y-1">
-            <p className="font-bold text-white">Altpower LLC</p>
-            <p>Phone: (636) 497-7314</p>
-            <p>Email: info@altpower.co</p>
+            <p className="font-bold text-white">APEX Electric</p>
+            <p>Phone: (660) 342-5886</p>
+            <p>Email: info@apexelectric.pro</p>
           </div>
         </section>
       </div>

@@ -6,13 +6,13 @@ const testimonials = [
   {
     name: "Standard Logistics Group",
     role: "Director of Operations",
-    content: "AltPower simplified our complex industrial automation transition. Their precision and engineering expertise are unmatched in the region.",
+    content: "APEX Electric simplified our complex industrial automation transition. Their precision and engineering expertise are unmatched in the region.",
     rating: 5
   },
   {
     name: "Metro Health Systems",
     role: "Facilities Manager",
-    content: "When it comes to critical systems, we trust only AltPower. Their 24/7 maintenance support gives us peace of mind for our server infrastructure.",
+    content: "When it comes to critical systems, we trust only APEX Electric. Their 24/7 maintenance support gives us peace of mind for our server infrastructure.",
     rating: 5
   },
   {

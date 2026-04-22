@@ -18,7 +18,7 @@ export default function FooterRefined() {
                  </svg>
              </div>
              <span className="font-display font-black text-lg tracking-tighter uppercase">
-               Alt<span className="text-lime-primary">Power</span>
+               APEX<span className="text-lime-primary"> Electric</span>
              </span>
           </div>
           <p className="text-white/40 max-w-sm text-sm leading-relaxed">
@@ -67,7 +67,7 @@ export default function FooterRefined() {
       </div>
 
       <div className="max-w-7xl mx-auto px-6 mt-16 pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-4">
-         <span className="text-[10px] uppercase font-bold tracking-widest text-white/20">© 2026 Altpower LLC. All Continuity Reserved.</span>
+         <span className="text-[10px] uppercase font-bold tracking-widest text-white/20">© 2026 APEX Electric. All Continuity Reserved.</span>
          <span className="text-[10px] uppercase font-bold tracking-widest text-white/20">Engineering for Excellence.</span>
       </div>
     </footer>

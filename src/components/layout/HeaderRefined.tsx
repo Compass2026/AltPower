@@ -46,7 +46,7 @@ export default function HeaderRefined() {
         <Link to="/" className="flex items-center group shrink-0 transform transition-transform translate-y-3 md:translate-y-0">
           <img 
             src="/logo.png" 
-            alt="AltPower Logo" 
+            alt="APEX Electric Logo" 
             className="h-10 md:h-14 w-auto logo-glossy"
           />
         </Link>
@@ -113,11 +113,11 @@ export default function HeaderRefined() {
         {/* Actions */}
         <div className="flex items-center gap-3 sm:gap-6 shrink-0">
           <a
-            href="tel:+16364977314"
+            href="tel:+16603425886"
             className="flex items-center gap-1.5 md:gap-2 text-[11px] md:text-[13px] font-black uppercase tracking-widest text-white/60 hover:text-white transition-colors shrink-0"
           >
             <Phone className="w-4 h-4 text-lime-primary hidden sm:block" />
-            (636) 497-7314
+            (660) 342-5886
           </a>
           <Link
             to="/contact"
@@ -186,11 +186,11 @@ export default function HeaderRefined() {
                 </div>
               ))}
               <a
-                href="tel:+16364977314"
+                href="tel:+16603425886"
                 className="flex items-center gap-3 text-[16px] font-black uppercase tracking-widest text-white/80 pt-4 border-t border-white/10"
               >
                 <Phone className="w-4 h-4 text-lime-primary" />
-                (636) 497-7314
+                (660) 342-5886
               </a>
             </div>
           </motion.div>
