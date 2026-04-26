@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import ContactForm from "../components/ui/ContactForm";
+import GHLForm from "../components/ui/GHLForm";
 
 export default function Contact() {
   return (
@@ -26,9 +26,9 @@ export default function Contact() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="glass-card p-8 md:p-12 border border-white/10"
+          className="glass-card p-4 md:p-8 border border-white/10"
         >
-          <ContactForm />
+          <GHLForm />
         </motion.div>
       </div>
     </div>

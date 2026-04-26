@@ -3,6 +3,7 @@ import SectionWrapper from "../components/layout/SectionWrapper";
 import CTA from "../components/sections/CTA";
 import { useSEO } from "../hooks/useSEO";
 import Schema from "../components/layout/Schema";
+import GHLForm from "../components/ui/GHLForm";
 
 const serviceData: Record<string, any> = {
   "commercial": {
@@ -88,6 +89,19 @@ export default function ServiceDetail() {
         title={`Need expert ${data.title}?`}
         subtitle="Our engineering teams are ready to discuss your specific requirements and provide a zero-fault solution."
       />
+
+      <SectionWrapper id="contact" variant="default">
+        <div className="max-w-3xl mx-auto">
+          <div className="text-center mb-10">
+            <span className="text-lime-primary text-xs font-bold uppercase tracking-[0.4em] mb-4 block">Get Started</span>
+            <h2 className="font-display text-3xl md:text-5xl font-black uppercase mb-4">Request a Quote</h2>
+            <p className="text-white/50 text-sm">Tell us about your project and we'll get back to you within 24 hours.</p>
+          </div>
+          <div className="glass-card p-4 md:p-8 rounded-2xl border border-white/10">
+            <GHLForm />
+          </div>
+        </div>
+      </SectionWrapper>
     </>
   );
 }

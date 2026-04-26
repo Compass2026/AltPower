@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Mail, Phone, MapPin } from "lucide-react";
-import ContactForm from "../ui/ContactForm";
+import GHLForm from "../ui/GHLForm";
 
 export default function ContactRefined() {
   return (
@@ -53,11 +53,11 @@ export default function ContactRefined() {
             </div>
           </div>
 
-          <div className="glass-card p-8 md:p-12 rounded-2xl relative">
+          <div className="glass-card p-4 md:p-8 rounded-2xl relative">
             <div className="absolute top-0 right-0 w-px h-full bg-gradient-to-b from-white/10 to-transparent" />
             <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent to-white/10" />
             
-            <ContactForm submitButtonText="Dispatch Proposal" />
+            <GHLForm />
           </div>
 
         </div>
